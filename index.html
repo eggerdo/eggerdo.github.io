@@ -2,26 +2,24 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
-<script>
-jQuery(document).ready(function($) {
-    jQuery.getScript('http://www.geoplugin.net/javascript.gp', function() 
-{
-    var country = geoplugin_countryName();
-    var zone = geoplugin_region();
-    var district = geoplugin_city();
+<title>Katerina &amp; Dominik are getting married! | 10 September 2016, Chios</title>
+<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+<script language="Javascript">
+//    var country = geoplugin_countryName();
+//    var zone = geoplugin_region();
+//    var district = geoplugin_city();
 	var countryCode = geoplugin_countryCode();
-    console.log("Your location is: " + country + ", " + zone + ", " + district);
 	if (countryCode == 'CH') {
-		
+		window.location = "ch/index.html";
+//		document.write("hello CH: ");
 	} else if (countryCode == 'GR') {
-		
+		window.location = "gr/index.html";
+//		document.write("hello GR: ");
 	} else {
-		window.location.replace('en/index.html');
+		window.location = "en/index.html";
+//		document.write("hello EN: ");
 	}
-});
-});
+//	document.write("Welcome to our visitors from "+geoplugin_city()+", "+geoplugin_countryName()+", "+geoplugin_countryCode());
 </script>
 </head>
 
