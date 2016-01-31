@@ -44,30 +44,32 @@ $(function() {
 	$('div.nav a').bind('click',function(event){
 		var $anchor = $(this);
 		
+		/*
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
 		}, 3000,'easeInOutQuad');
 		/*
 		if you don't want to use the easing effects:
+		*/
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
 		}, 1000);
-		*/
 		event.preventDefault();
 	});
 	
 	$('div#lunaplane a').bind('click',function(event){
 		var $anchor = $(this);
-		
+		/*
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
 		}, 3000,'easeInOutQuad');
+		*/
 		/*
 		if you don't want to use the easing effects:
+		*/
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
 		}, 1000);
-		*/
 		event.preventDefault();
 	});
 	
