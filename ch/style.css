@@ -149,7 +149,7 @@ body {
 }
 #section7 {
 	width:100%;
-	height:940px;
+	height:1040px;
 	position:relative;
 }
 /* Images
@@ -477,6 +477,14 @@ body {
 	top: 402px;
 }
 
+#div-booking:hover #link-booking {
+	background-position:0px 0px;
+}
+
+#div-booking:hover #btn-booking {
+	background-position:0px -88px;
+}
+
 #link-booking {
 	position: absolute;
 	display: block;
@@ -488,9 +496,9 @@ body {
 	text-indent: -9999em;
 }
 
-#link-booking:hover {
+/*#link-booking:hover {
 	background-position:0px 0px;
-}
+}*/
 
 #link-golden-sand {
 	position: absolute;
@@ -708,7 +716,7 @@ body {
 #registry {
 	position: absolute;
 	left: 410px;
-	top: -81px;
+	top: 19px;
 	width: 810px;
 	height: 357px;
 	background: url(images/back-registry.png);
@@ -844,7 +852,7 @@ body {
 #btn-banner-rsvp {
 	display:block;
 	width:95px;
-	height:40px;
+	height:43px;
 	background:url(images/btn-banner-rsvp.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
@@ -853,7 +861,7 @@ body {
 	left:410px;
 }
 #btn-banner-rsvp:hover {
-	background-position:0px -40px;
+	background-position:0px -43px;
 }
 
 
@@ -884,7 +892,7 @@ body {
 #clouds {
 		  position:absolute;
 		  width:100%;
-		  height: 12434px;
+		  height: 12756px;
 		  background: transparent url(images/clouds.png) 0 0px repeat-x; 
 			top:0px;left:0px;
 			z-index:1;
