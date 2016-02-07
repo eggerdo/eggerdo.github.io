@@ -449,8 +449,8 @@ body {
 }
 
 .btn-booking-hotel {
-	left: 631px;
-	top: 395px;
+	left: 623px;
+	top: 390px;
 }
 
 #div-booking:hover #link-booking {
@@ -479,8 +479,8 @@ body {
 #link-golden-sand {
 	position: absolute;
 	display: block;
-	left: 439px;
-	top: 207px;
+	left: 433px;
+	top: 210px;
 	width: 174px;
 	height: 26px;
 	background: url(images/link-golden-sand.png) 0px -31px no-repeat;
@@ -495,7 +495,7 @@ body {
 	position: absolute;
 	display: block;
 	left: 467px;
-	top: 177px;
+	top: 176px;
 	width: 193px;
 	height: 29px;
 	background: url(images/link-aegean-dream.png) 0px -31px no-repeat;
@@ -677,7 +677,7 @@ body {
 #registry {
 	position: absolute;
 	left: 410px;
-	top: -81px;
+	top: -21px;
 	width: 810px;
 	height: 451px;
 	background: url(images/back-registry.png);
