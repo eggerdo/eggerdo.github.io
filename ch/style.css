@@ -106,7 +106,7 @@ a:active, a:focus {
 ----------------------------- */
 
 body {
-	background:#9fddea url(images/bg-bottom.png) bottom center no-repeat;
+	background:#9fddea url(../common/images/bg-bottom.png) bottom center no-repeat;
 }
 #container {
 	width:1250px;
@@ -167,7 +167,7 @@ body {
 	right: 122px;
 	width: 50px;
 	height: 25px;
-	background: url(images/flag-greece.png) 0px 0px no-repeat;
+	background: url(../common/images/flag-greece.png) 0px 0px no-repeat;
 }
 
 #swiss {
@@ -175,7 +175,7 @@ body {
 	right: 81px;
 	width: 25px;
 	height: 25px;
-	background: url(images/flag-schweiz.png) 0px 0px no-repeat;
+	background: url(../common/images/flag-schweiz.png) 0px 0px no-repeat;
 }
 
 #english {
@@ -183,7 +183,7 @@ body {
 	right: 15px;
 	width: 50px;
 	height: 25px;
-	background: url(images/flag-british.png) 0px 0px no-repeat;
+	background: url(../common/images/flag-british.png) 0px 0px no-repeat;
 }
 
 #kd {
@@ -192,7 +192,7 @@ body {
 	left:50px;
 	width:487px;
 	height:755px;
-	background:url(images/katerinaanddominik.png) 0px 0px no-repeat;
+	background:url(../common/images/katerinaanddominik.png) 0px 0px no-repeat;
 }
 #lunaplane {
 	position:absolute;
@@ -200,7 +200,7 @@ body {
 	right:159px;
 	width:600px;
 	height:358px;
-	background:url(images/lunaplane.png) 0px 0px no-repeat;
+	background:url(../common/images/lunaplane.png) 0px 0px no-repeat;
 }
 #datelocation {
 	position:absolute;
@@ -308,7 +308,7 @@ body {
 	display: block;
 	width: 69px;
 	height: 27px;
-	background: url(images/link-aegean.png) 0px -30px no-repeat;
+	background: url(../common/images/link-aegean.png) 0px -30px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -317,7 +317,7 @@ body {
 }
 
 .link-aegean-zurich {
-	left: 386px;
+	left: 395px;
 	top: 390px;
 }
 
@@ -329,7 +329,7 @@ body {
 #link-expedia {
 	position: absolute;
 	display: block;
-	left: 133px;
+	left: 142px;
 	top: 537px;
 	width: 76px;
 	height: 29px;
@@ -348,7 +348,7 @@ body {
 	top: 431px;
 	width: 149px;
 	height: 25px;
-	background: url(images/link-blue-star.png) 0px -30px no-repeat;
+	background: url(../common/images/link-blue-star.png) 0px -30px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -359,11 +359,11 @@ body {
 #link-hellenic {
 	position: absolute;
 	display: block;
-	left: 559px;
+	left: 558px;
 	top: 431px;
 	width: 154px;
 	height: 29px;
-	background: url(images/link-hellenic-seaways.png) 0px -30px no-repeat;
+	background: url(../common/images/link-hellenic-seaways.png) 0px -30px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -378,7 +378,7 @@ body {
 	top: 310px;
 	width: 89px;
 	height: 19px;
-	background: url(images/link-transavia.png) 0px -20px no-repeat;
+	background: url(../common/images/link-transavia.png) 0px -20px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -393,7 +393,7 @@ body {
 	top: 465px;
 	width: 119px;
 	height: 22px;
-	background: url(images/link-neckermann.png) 0px -23px no-repeat;
+	background: url(../common/images/link-neckermann.png) 0px -23px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -408,7 +408,7 @@ body {
 	top: 465px;
 	width: 71px;
 	height: 22px;
-	background: url(images/link-sunweb.png) 0px -23px no-repeat;
+	background: url(../common/images/link-sunweb.png) 0px -23px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -459,7 +459,7 @@ body {
 	display: block;
 	width: 86px;
 	height: 88px;
-	background: url(images/btn-booking.png) 0px 0px no-repeat;
+	background: url(../common/images/btn-booking.png) 0px 0px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -492,7 +492,7 @@ body {
 	top: 478px;
 	width: 168px;
 	height: 29px;
-	background: url(images/link-booking.png) 0px -31px no-repeat;
+	background: url(../common/images/link-booking.png) 0px -31px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -507,7 +507,7 @@ body {
 	top: 187px;
 	width: 174px;
 	height: 26px;
-	background: url(images/link-golden-sand.png) 0px -31px no-repeat;
+	background: url(../common/images/link-golden-sand.png) 0px -31px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -522,7 +522,7 @@ body {
 	top: 187px;
 	width: 193px;
 	height: 29px;
-	background: url(images/link-aegean-dream.png) 0px -31px no-repeat;
+	background: url(../common/images/link-aegean-dream.png) 0px -31px no-repeat;
 	text-indent: -9999em;
 }
 
@@ -540,7 +540,7 @@ body {
 	display:block;
 	width:256px;
 	height:197px;
-	background:url(images/map-chios.png) 0px 0px no-repeat;
+	background:url(../common/images/map-chios.png) 0px 0px no-repeat;
 	text-indent:-9999em;
 	left:272px;
 	top:672px;
@@ -552,7 +552,7 @@ body {
 #btn-map-chios-close {
 	position:absolute;
 	display:block;
-	background:url(images/close.png) 0px 0px no-repeat;
+	background:url(../common/images/close.png) 0px 0px no-repeat;
 	text-indent:-9999em;
 	left:1147px;
 	top:150px;
@@ -893,7 +893,7 @@ body {
 		  position:absolute;
 		  width:100%;
 		  height: 12756px;
-		  background: transparent url(images/clouds.png) 0 0px repeat-x; 
+		  background: transparent url(../common/images/clouds.png) 0 0px repeat-x; 
 			top:0px;left:0px;
 			z-index:1;
 		  
