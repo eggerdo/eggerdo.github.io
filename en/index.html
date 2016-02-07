@@ -24,6 +24,7 @@ yepnope({
 	var travel2 = 'btn-travel-zurich';
 </script>
 <script type="text/javascript" src="../js/code_travel.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript">
           function initialize() {
@@ -38,12 +39,11 @@ yepnope({
                 var marker = new google.maps.Marker({
                     position: {lat: 38.321634, lng: 26.153705},
                     map: map,
-                    title: 'Hello World!'
+                    title: 'Karfas'
                   });
           }
               // google.maps.event.addDomListener(window, 'load', initialize);
         </script>
-		<!--<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="../js/jquery.spritely-0.1.js"></script>
         <script type="text/javascript">
         (function($) {
@@ -83,7 +83,7 @@ yepnope({
             
             });
         })(jQuery);
-    </script>-->
+    </script>
 	<!--	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
         <script type="text/javascript">
 			$(function() {
@@ -128,7 +128,7 @@ yepnope({
                 <a id="btn-banner-rsvp" href="#section6">Sect 5</a>
                 <a id="btn-banner-registry" href="#section7">Sect 6</a>
             </div>     
-            <img src="images/datelocation.png" alt="10 September 2016, Chios" name="datelocation" width="637" height="244" id="datelocation" />
+            <img src="images/datelocation.png" alt="10th September 2016, Chios" name="datelocation" width="637" height="244" id="datelocation" />
         </div>
         <!--End section1-->
         <div id="section2">
@@ -138,7 +138,7 @@ yepnope({
             </div>
             <!--End nav-dl-->
             <div id="joinus"></div>
-            <img src="images/tandem.png" alt="Tandem!" width="652" height="452" id="tandem" />
+            <img src="images/tandem.png" width="652" height="452" id="tandem" />
         </div>
         <!--End section2-->
         <div id="section3">
@@ -148,7 +148,9 @@ yepnope({
             </div><!--End nav-dl-->
             
        	  <div id="hotel-main" class="hotel-back">
+          		<div id="div-booking">
             	<a target="_blank" href="http://www.booking.com" id="link-booking" class="links links-hotels">www.booking.com</a><a target="_blank" href="http://www.booking.com" id="btn-booking" class="links links-hotels btn-booking-main">www.booking.com</a>
+                </div>
 			</div>
             <div id="golden-sand" class="hotel-back" style="display:none">
             	<a target="_blank" href="http://www.goldensand.gr" title="Golden Sand Hotel" id="link-golden-sand" class="links links-hotels"></a>
@@ -166,7 +168,7 @@ yepnope({
             <div title="Golden Sand Hotel" id="btn-hotel-golden-sand" class="hotel1 hotel-button">Golden Sand Hotel</div>
             <div title="Karatzas Studios" id="btn-hotel-karatzas" class="hotel2 hotel-button">Karatzas Studios</div>  
           <div title="Aegean Dream Hotel" id="btn-hotel-aegean-dream" class="hotel3 hotel-button">Aegean Dream Hotel</div>   
-            <img src="images/vwvan.png" alt="VW" name="vw_van" width="400" height="228" id="vw_van" />
+            <img src="images/vwvan.png" name="vw_van" width="400" height="228" id="vw_van" />
         </div><!--End section3-->
         <div id="section4">
           <div class="nav" id="nav4">
@@ -189,7 +191,7 @@ yepnope({
             <div title="From Amsterdam" id="btn-travel-amsterdam" class="travelMain" style="display:none">From Amsterdam</div>
             <div title="From Athens" id="btn-travel-athens" class="travel2">From Athens</div>  
         
-            <img id="bunnyballoon" src="images/bunnyballoon.png" alt="Bunnies!" />
+            <img id="bunnyballoon" src="images/bunnyballoon.png" />
         </div><!--End section4-->
         <div id="section5">
             <div class="nav" id="nav5">
@@ -202,7 +204,7 @@ yepnope({
             </div>
             <div id="map-chios" style="display:none"></div>
             <div id="btn-map-chios-close" title="Close Map" style="display:none">Close Map</div>
-            <div name="btn-map-chios" title="Highland Springs Resort Property Map" id="btn-map-chios">View Chios Map</div>
+            <div name="btn-map-chios" title="Chios Map" id="btn-map-chios">View Chios Map</div>
         </div>
         <div id="section6">
             <div class="nav" id="nav6">
@@ -213,7 +215,7 @@ yepnope({
             <div id="rsvp">
               <a id="btn-rsvp-form" target="_blank" href="http://goo.gl/forms/8TzlL9Xjfa">RSVP Here!</a>
             </div>
-            <img src="images/book.png" alt="Book" name="book" width="2341" height="1847" id="book" />
+            <img src="images/book.png" name="book" width="2341" height="1847" id="book" />
           <!--<a id="btn-rsvp-form" href="#" onClick="MyWindow=window.open('https://docs.google.com/forms/d/1ptZplNEIAuJD8SqJF8aZWeTWHF6ftWf0i5oaPcRG6Cw/viewform','Contact Form',width=600,height=300); return false;" class="contact">RSVP Here!</a>-->
            <!--<a id="btn-rsvp-form" href="http://cors.io/?u=https://docs.google.com/forms/d/1ptZplNEIAuJD8SqJF8aZWeTWHF6ftWf0i5oaPcRG6Cw/viewform" rel="#overlay" style="text-decoration:none">RSVP Here!</a>-->
         </div>
@@ -224,7 +226,7 @@ yepnope({
             </div>
             <!--End nav-dl-->
         <div id="registry"></div>
-          <img src="images/flying_robot.png" alt="Flying Robot" name="robot" width="328" height="461" id="robot" />
+          <img src="images/flying-robot.png" name="robot" width="328" height="461" id="robot" />
         </div>
     </div><!--End container-->
     

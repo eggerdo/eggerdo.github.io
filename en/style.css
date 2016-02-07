@@ -149,7 +149,7 @@ body {
 }
 #section7 {
 	width:100%;
-	height:940px;
+	height:1040px;
 	position:relative;
 }
 /* Images
@@ -444,7 +444,7 @@ body {
 }
 
 .btn-booking-main {
-	left: 653px;
+	left: 623px;
 	top: 390px;
 }
 
@@ -453,10 +453,18 @@ body {
 	top: 395px;
 }
 
+#div-booking:hover #link-booking {
+	background-position:0px 0px;
+}
+
+#div-booking:hover #btn-booking {
+	background-position:0px -88px;
+}
+
 #link-booking {
 	position: absolute;
 	display: block;
-	left: 469px;
+	left: 447px;
 	top: 424px;
 	width: 168px;
 	height: 29px;
@@ -464,9 +472,9 @@ body {
 	text-indent: -9999em;
 }
 
-#link-booking:hover {
+/*#link-booking:hover {
 	background-position:0px 0px;
-}
+}*/
 
 #link-golden-sand {
 	position: absolute;
@@ -712,9 +720,9 @@ body {
 	left:778px;
 }
 #vw_van {
-	position: absolute;
-	left: 115px;
-	top: 306px;
+	position:absolute;
+	left:115px;
+	top:306px;
 }
 
 #windmills {
@@ -845,7 +853,7 @@ body {
 #clouds {
 		  position:absolute;
 		  width:100%;
-		  height: 12434px;
+		  height: 12756px;
 		  background: transparent url(images/clouds.png) 0 0px repeat-x; 
 			top:0px;left:0px;
 			z-index:1;
