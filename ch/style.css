@@ -322,8 +322,23 @@ body {
 }
 
 .link-aegean-athens {
-	left: 270px;
+	left: 175px;
 	top: 339px;
+}
+
+#link-astra {
+	position: absolute;
+	display: block;
+	left: 294px;
+	top: 339px;
+	width: 51px;
+	height: 21px;
+	background: url(../common/images/link-astra.png) 0px -30px no-repeat;
+	text-indent: -9999em;
+}
+
+#link-astra:hover {
+	background-position:0px 0px;
 }
 
 #link-expedia {
@@ -718,7 +733,7 @@ body {
 	left: 410px;
 	top: 19px;
 	width: 810px;
-	height: 357px;
+	height: 431px;
 	background: url(images/back-registry.png);
 }
 

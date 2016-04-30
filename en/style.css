@@ -317,6 +317,21 @@ body {
 	background-position:0px 0px;
 }
 
+#link-astra {
+	position: absolute;
+	display: block;
+	left: 108px;
+	top: 347px;
+	width: 51px;
+	height: 21px;
+	background: url(../common/images/link-astra.png) 0px -30px no-repeat;
+	text-indent: -9999em;
+}
+
+#link-astra:hover {
+	background-position:0px 0px;
+}
+
 #link-blue-star {
 	position: absolute;
 	display: block;

@@ -325,6 +325,21 @@ body {
 	background-position:0px 0px;
 }
 
+#link-astra {
+	position: absolute;
+	display: block;
+	left: 666px;
+	top: 338px;
+	width: 51px;
+	height: 21px;
+	background: url(../common/images/link-astra.png) 0px -30px no-repeat;
+	text-indent: -9999em;
+}
+
+#link-astra:hover {
+	background-position:0px 0px;
+}
+
 #link-blue-star {
 	position: absolute;
 	display: block;
@@ -503,7 +518,7 @@ body {
 	position: absolute;
 	display: block;
 	left: 542px;
-	top: 193px;
+	top: 191px;
 	width: 126px;
 	height: 29px;
 	background: url(../common/images/link-aegean-dream.png) 0px -31px no-repeat;
