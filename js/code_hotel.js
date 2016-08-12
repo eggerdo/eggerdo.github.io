@@ -75,7 +75,7 @@ $(function() {
 	
 	var initialized = false;
 	var shown = false;
-	$('#btn-map-chios').bind('click', function(event) {
+	$('#btn-map-chios-google').bind('click', function(event) {
 		if (!shown) {
 		
 		if (!initialized) {
@@ -83,11 +83,11 @@ $(function() {
 			initialized = true;
 		}
 			$('#map-chios').show();
-			$('#btn-map-chios-close').show();
+			$('#btn-map-chios-google-close').show();
 			shown = true;
 		} else {
 			$('#map-chios').hide();
-			$('#btn-map-chios-close').hide();
+			$('#btn-map-chios-google-close').hide();
 			shown = false;
 		}
 		var $anchor = $(this);
@@ -96,9 +96,9 @@ $(function() {
 		
 	 });
 	 
-	$('#btn-map-chios-close').bind('click', function(event) {
+	$('#btn-map-chios-google-close').bind('click', function(event) {
 			$('#map-chios').hide();
-			$('#btn-map-chios-close').hide();
+			$('#btn-map-chios-google-close').hide();
 			shown = false;
 	});
 				

@@ -534,7 +534,22 @@ body {
 
 /* CHIOS */
 
+
 #btn-map-chios {
+	position:absolute;
+	display:block;
+	width:220px;
+	height:320px;
+	background:url(../common/images/chios-map-2.png) 0px 0px no-repeat;
+	text-indent:-9999em;
+	left:52px;
+	top:600px;
+}
+#btn-map-chios:hover {
+	background-position:0px -321px;
+}
+
+#btn-map-chios-google {
 	position:absolute;
 	display:block;
 	width:256px;
@@ -544,11 +559,11 @@ body {
 	left:272px;
 	top:672px;
 }
-#btn-map-chios:hover {
+#btn-map-chios-google:hover {
 	background-position:0px -197px;
 }
 
-#btn-map-chios-close {
+#btn-map-chios-google-close {
 	position:absolute;
 	display:block;
 	background:url(../common/images/close.png) 0px 0px no-repeat;
@@ -751,7 +766,7 @@ body {
 #windmills {
 	position:absolute;
 	left:0px;
-	top:301px;
+	top:201px;
 	-ms-transform: rotate(-30deg); /* IE 9 */
 	-webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
 	transform: rotate(-30deg);
