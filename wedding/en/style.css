@@ -149,20 +149,24 @@ a.navLink:hover {
 #btn-nav-travel {
 	position: absolute;
 	left: 70px;
-	/*width:46px;
-	height:13px;
-	background:url(images/travel_blog.png) 0px 0px no-repeat;
-	text-indent:-9999em;*/
 }
 	
 #btn-nav-wedding {
 	position: absolute;
 	left: 190px;
-	/*width:69px;
-	height:13px;
-	background:url(images/wedding_page.png) 0px 0px no-repeat;
-	text-indent:-9999em;*/
 }
+
+#btn-nav-gallery {
+	position: absolute;
+	left: 340px;
+}
+
+#btn-nav-video {
+	position: absolute;
+	left: 500px;
+}
+
+
 /*Sections
 ----------------------------*/
 #section1 {
