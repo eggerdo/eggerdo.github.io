@@ -1,28 +1,42 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<title>Katerina &amp; Dominik are getting married! | 10 September 2016, Chios</title>
-<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
-<script language="Javascript">
-//    var country = geoplugin_countryName();
-//    var zone = geoplugin_region();
-//    var district = geoplugin_city();
-	var countryCode = geoplugin_countryCode();
-	if (countryCode == 'CH') {
-		window.location = "ch/index.html";
-//		document.write("hello CH: ");
-	} else if (countryCode == 'GR') {
-		window.location = "gr/index.html";
-//		document.write("hello GR: ");
-	} else {
-		window.location = "en/index.html";
-//		document.write("hello EN: ");
-	}
-//	document.write("Welcome to our visitors from "+geoplugin_city()+", "+geoplugin_countryName()+", "+geoplugin_countryCode());
-</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Katerina and Dominik</title>
+	<!--<link rel="stylesheet" href="https://travelmap.net/css/site.min.css">-->
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<script type='text/javascript' src='wedding/js/jquery.min.js'></script>
+<script type="text/javascript" src="wedding/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="wedding/js/jquery.spritely-0.1.js"></script>
+<script type="text/javascript">
+        (function($) {
+            $(document).ready(function() {
+            
+                 /*$('#clouds').pan({fps: 30, speed: 0.5, dir: 'right'});
+                
+                $('#lunaplane').sprite({fps: 10, no_of_frames: 3})
+                   .spRandom({
+                        top: 443,
+                        left: 538,
+                        right: 588,
+                        bottom: 480,
+                        speed: 2000,
+                        pause: 2000
+                    });*/
+            });
+        })(jQuery);
+    </script>
 </head>
-
-<body>
+<body>    
+	<div id="container">
+        <div id="nav-bar">
+          <a id="btn-nav-travel" class="navLink" href="index.html" >Travel Blog</a>
+          <a id="btn-nav-wedding" class="navLink" href="wedding/index.html">Wedding Page</a>        </div>
+            
+<!-- TravelMap -->
+        <iframe src="https://dominikandkaterina.travelmap.net/" 
+             id="travelmap"
+             allowfullscreen >        </iframe>
+    </div>
 </body>
 </html>
