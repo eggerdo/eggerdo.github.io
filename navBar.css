@@ -17,6 +17,7 @@ a.navLink {
 	text-decoration: none;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
+	font-style:italic;
 }
 
 a.navLink:hover {
